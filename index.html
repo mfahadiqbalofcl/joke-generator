@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Generator</title>
+    <!-- your favicon -->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- FontAwesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    
+    <div class="container">
+        <h1>Joke Generator</h1>
+        <div class="controls">
+          <label for="language">Language:</label>
+          <select id="language">
+            <option value="en">English</option>
+            <option value="de">German</option>
+            <option value="es">Spanish</option>
+          </select>
+          <button id="new-joke">New Joke</button>
+        </div>
+        <div class="joke">
+          <p id="setup"></p>
+          <p id="punchline"></p>
+          <div class="share-icons">
+            <p>Share on:</p>
+            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="reddit"><i class="fab fa-reddit"></i></a>
+          </div>
+        </div>
+      </div>
+
+    <script src="./assets/js/app.js"></script>
+    
+</body>
+</html>
